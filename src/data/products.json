@@ -1,0 +1,252 @@
+{
+  "categories": [
+    {
+      "id": "water-controllers",
+      "name": "Automatic Water Controllers",
+      "description": "Smart water management systems - Save water and electricity with smart devices",
+      "image": "https://m.media-amazon.com/images/I/61APjs9V5ML._SX679_.jpg",
+      "priority": 1
+    },
+    {
+      "id": "smart-devices",
+      "name": "Smart Devices",
+      "description": "IoT devices for home automation",
+      "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=300&fit=crop",
+      "priority": 2
+    },
+    {
+      "id": "lights",
+      "name": "Smart Lighting",
+      "description": "Smart lighting solutions for your home",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+      "priority": 3
+    },
+    {
+      "id": "fans-motors",
+      "name": "Fans & Motors",
+      "description": "Efficient fans and motor solutions",
+      "image": "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&h=300&fit=crop",
+      "priority": 4
+    },
+    {
+      "id": "sensors",
+      "name": "Sensors & Components",
+      "description": "Electronic sensors and components",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+      "priority": 5
+    },
+    {
+      "id": "wires-cables",
+      "name": "Wires & Cables",
+      "description": "High-quality electrical wires and cables",
+      "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=300&fit=crop",
+      "priority": 6
+    }
+  ],
+
+  "products": {
+    "water-controllers": [
+      {
+        "id": "water-level-controller-basic",
+        "name": "Basic Water Level Controller",
+        "category": "water-controllers",
+        "price": 3500,
+        "description": "Automatic water tank level controller with overflow protection",
+        "image": "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
+        "features": ["Auto Start/Stop", "Overflow Protection", "Dry Run Protection", "LED Indicators"],
+        "specifications": {
+          "power": "220V AC",
+          "capacity": "Up to 1HP motor",
+          "protection": "IP65"
+        },
+        "applications": ["Domestic", "Small Commercial"],
+        "savings": "30-40% water & electricity savings"
+      },
+      {
+        "id": "water-controller-pro",
+        "name": "Water Level Controller Pro",
+        "category": "water-controllers",
+        "price": 4500,
+        "description": "Advanced water level controller with mobile app control and alerts",
+        "image": "https://m.media-amazon.com/images/I/61APjs9V5ML._SX679_.jpg",
+        "features": ["Mobile App Control", "SMS Alerts", "Multiple Tank Support", "Weather Protection"],
+        "specifications": {
+          "power": "220V AC",
+          "capacity": "Up to 2HP motor",
+          "protection": "IP67"
+        },
+        "applications": ["Domestic", "Commercial", "Apartments"],
+        "savings": "35-45% water & electricity savings"
+      },
+      {
+        "id": "water-controller-industrial",
+        "name": "Industrial Water Controller",
+        "category": "water-controllers",
+        "price": 8500,
+        "description": "Heavy-duty water level controller for industrial applications",
+        "image": "https://m.media-amazon.com/images/I/61APjs9V5ML._SX679_.jpg",
+        "features": ["Industrial Grade", "SCADA Compatible", "Multi-Zone Control", "Fail-Safe Design"],
+        "specifications": {
+          "power": "220V/440V AC",
+          "capacity": "Up to 10HP motor",
+          "protection": "IP68"
+        },
+        "applications": ["Industrial", "Large Commercial", "Municipal"],
+        "savings": "40-50% water & electricity savings"
+      }
+    ],
+
+    "smart-devices": [
+      {
+        "id": "smart-switch-basic",
+        "name": "Smart Switch",
+        "category": "smart-devices",
+        "price": 2500,
+        "description": "WiFi enabled smart switch with voice control support",
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=400&fit=crop",
+        "features": ["Voice Control", "WiFi Enabled", "Timer Function", "Remote Control"],
+        "specifications": {
+          "power": "220V AC",
+          "load": "10A max"
+        }
+      },
+      {
+        "id": "smart-plug-alexa",
+        "name": "Alexa Smart Plug",
+        "category": "smart-devices",
+        "price": 1299,
+        "description": "WiFi smart plug with Alexa voice control support",
+        "image": "https://m.media-amazon.com/images/I/51YifSJsjCL._SL1500_.jpg",
+        "features": ["Alexa Compatible", "WiFi Enabled", "Timer Function", "Energy Monitoring"],
+        "specifications": {
+          "power": "220V AC",
+          "load": "16A max"
+        }
+      },
+      {
+        "id": "smart-dimmer-switch",
+        "name": "Smart Dimmer Switch",
+        "category": "smart-devices",
+        "price": 3200,
+        "description": "WiFi enabled dimmer switch with app and voice control",
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=400&fit=crop",
+        "features": ["Dimming Control", "Voice Control", "Schedule Function", "Touch Panel"],
+        "specifications": {
+          "power": "220V AC",
+          "load": "300W max"
+        }
+      }
+    ],
+
+    "lights": [
+      {
+        "id": "smart-led-bulb-color",
+        "name": "Smart LED Bulb (Color)",
+        "category": "lights",
+        "price": 1200,
+        "description": "WiFi enabled smart LED bulb with color changing capabilities",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+        "features": ["WiFi Enabled", "Color Changing", "Energy Efficient", "App Control"],
+        "specifications": {
+          "power": "12W",
+          "base": "B22/E27",
+          "lumens": "1200lm"
+        }
+      },
+      {
+        "id": "smart-bulb-9w",
+        "name": "Smart LED Bulb 9W",
+        "category": "lights",
+        "price": 899,
+        "description": "Energy efficient 9W smart LED bulb with color temperature control",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+        "features": ["9W Power", "Warm/Cool White", "Dimmable", "Long Life"],
+        "specifications": {
+          "power": "9W",
+          "base": "B22/E27",
+          "lumens": "900lm"
+        }
+      },
+      {
+        "id": "led-strip-smart",
+        "name": "Smart LED Strip",
+        "category": "lights",
+        "price": 2800,
+        "description": "RGB LED strip with smart controls and color changing effects",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+        "features": ["RGB Colors", "Music Sync", "App Control", "Cuttable Design"],
+        "specifications": {
+          "length": "5 meters",
+          "power": "24W",
+          "voltage": "12V DC"
+        }
+      }
+    ],
+
+    "fans-motors": [
+      {
+        "id": "ceiling-fan-smart",
+        "name": "Smart Ceiling Fan",
+        "category": "fans-motors",
+        "price": 4500,
+        "description": "Energy efficient ceiling fan with remote control",
+        "image": "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&h=400&fit=crop",
+        "features": ["Remote Control", "5 Speed Settings", "Energy Efficient", "Silent Operation"],
+        "specifications": {
+          "sweep": "1200mm",
+          "power": "75W",
+          "rpm": "350"
+        }
+      }
+    ],
+
+    "sensors": [
+      {
+        "id": "ldr-sensor-module",
+        "name": "LDR Sensor Module",
+        "category": "sensors",
+        "price": 150,
+        "description": "Light dependent resistor sensor for automatic lighting control",
+        "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=400&fit=crop",
+        "features": ["High Sensitivity", "Adjustable Threshold", "Compact Size", "Easy Installation"],
+        "specifications": {
+          "voltage": "3.3V-5V",
+          "output": "Digital/Analog"
+        }
+      }
+    ],
+
+    "wires-cables": [
+      {
+        "id": "copper-wire-10m",
+        "name": "Copper Wire 10m",
+        "category": "wires-cables",
+        "price": 800,
+        "description": "High quality copper wire for electrical installations",
+        "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=400&fit=crop",
+        "features": ["Pure Copper", "10 Meter Length", "Insulated", "Fire Resistant"],
+        "specifications": {
+          "gauge": "2.5mm²",
+          "length": "10 meters",
+          "insulation": "PVC"
+        }
+      }
+    ]
+  },
+
+  "productTemplate": {
+    "id": "unique-product-id",
+    "name": "Product Name",
+    "category": "category-id",
+    "price": 0,
+    "description": "Product description",
+    "image": "https://example.com/image.jpg",
+    "features": ["Feature 1", "Feature 2", "Feature 3"],
+    "specifications": {
+      "power": "220V AC",
+      "capacity": "Specification value"
+    },
+    "applications": ["Application 1", "Application 2"],
+    "savings": "Optional: savings percentage"
+  }
+}
