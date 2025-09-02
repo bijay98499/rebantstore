@@ -9,11 +9,9 @@ const Home = () => {
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [suggestions, setSuggestions] = useState([]);
   const navigate = useNavigate();
-  const categories = productsData.categories;
   
   // Flatten products from the new structure
   const allProducts = Object.values(productsData.products).flat();
-  const featuredProducts = allProducts.slice(0, 6);
   
   // Get all product names and categories for suggestions
   const allSuggestions = [
@@ -30,9 +28,6 @@ const Home = () => {
     }
   };
 
-  const handleQuickSearch = (term) => {
-    navigate(`/products?search=${encodeURIComponent(term)}`);
-  };
 
   const handleInputChange = (e) => {
     const value = e.target.value;
@@ -67,7 +62,6 @@ const Home = () => {
     setTimeout(() => setShowSuggestions(false), 200);
   };
 
-  const quickSearchTerms = ['Water Level Controller', 'Domestic Solutions', 'Industrial Automation', 'Smart Water Pumps', 'Energy Saving Devices'];
 
   return (
     <div className="min-h-screen bg-gray-50">
