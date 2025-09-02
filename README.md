@@ -129,10 +129,10 @@ To deploy the website:
 ## Business Information
 
 **Rebant Smart Home Automation**
-- Address: New Baneshwor, Kathmandu, Nepal
-- Phone: +977-9876543210
-- Email: info@rebantsmarthome.com
-- WhatsApp: +977-9876543210
+- Address:Biratnagar, Nepal
+- Phone: +977-9842358515
+- Email: bijay98499@gmail.com
+- WhatsApp: +977-9842358515
 
 ## License
 
